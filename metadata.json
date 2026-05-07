@@ -1,0 +1,6 @@
+{
+  "name": "User Insight Dashboard",
+  "description": "A high-performance user management dashboard featuring real-time role distribution analytics, lazy-loaded forms, and RxJS state management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
