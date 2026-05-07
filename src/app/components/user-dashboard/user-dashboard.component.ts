@@ -55,10 +55,6 @@ import { UserChartComponent } from '../user-chart/user-chart.component';
           </div>
           
           <div class="flex items-center gap-4">
-            <button class="relative p-2 text-gray-400 hover:text-[#1c4980] transition-colors bg-white rounded-xl border border-gray-100 shadow-sm">
-              <lucide-icon name="bell" size="22"></lucide-icon>
-              <span class="absolute top-2 right-2 w-2 h-2 bg-red-500 rounded-full border-2 border-white"></span>
-            </button>
             <button
               (click)="openModal()"
               class="h-[48px] px-6 bg-[#1c4980] text-white font-semibold rounded-xl hover:bg-[#153a66] active:scale-[0.98] transition-all flex items-center justify-center gap-3 shadow-lg shadow-[#1c4980]/20"
@@ -102,9 +98,6 @@ import { UserChartComponent } from '../user-chart/user-chart.component';
                    <p class="text-[#94a3b8] text-sm mb-6 leading-relaxed">
                      Optimize your workflow by assigning specific roles to your team members. Need a customized role?
                    </p>
-                   <button class="px-6 py-3 bg-white/10 hover:bg-white/20 transition-colors rounded-xl font-semibold text-sm backdrop-blur-md">
-                     Learn More
-                   </button>
                 </div>
                 <!-- Abstract shape -->
                 <div class="absolute -right-12 -bottom-12 w-48 h-48 bg-white/5 rounded-full blur-2xl group-hover:scale-110 transition-transform duration-700"></div>

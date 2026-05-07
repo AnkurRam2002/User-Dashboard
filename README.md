@@ -62,6 +62,3 @@ Navigate to `http://localhost:3000` (or the port assigned by the CLI).
 ```bash
 npm run build
 ```
-
-## 🤝 Contribution
-This project was developed with a focus on modern Angular best practices and performance optimization. Feel free to explore the code and suggest improvements!
